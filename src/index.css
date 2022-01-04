@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background-color: black; */
+}
+.contain p{
+  font-size: small;
+  width: auto;
+  /* line-height: unset; */
+  margin: auto;
+  text-align: center;
+  margin-top: 6px;
+  border-radius: 4px;
+
+}
+#right{
+  float: right;
+}
+.contain{
+   flex-direction: row;
+}
+.container{
+  /* border: 2px solid red; */
+  overflow:auto;
+
+}
+@media (min-width: 576px){
+.container{
+    max-width: 350px;
+}
+}
+
+.input{
+   /* border: 2px solid red;  */
+  border-radius: 10px;
+}
